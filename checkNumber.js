@@ -1,13 +1,15 @@
-function checkNum(N){
-    if (N > 0){
-        console.log("Number is Pos");
-    }else if (N < 0) {
-        console.log("number is Neg")
-    }else {
-        console.log("Number is 0" )
+function checkNum(N) {
+    if (N > 0) {
+       return "Number is Pos";
+    } else if (N < 0) {
+        return "number is Neg";
+    } else {
+        return "Number is 0";
     }
 }
-    function run(){
-        val = document.getElementById("val").value;
-        document.getElementById("massage").innerHTML=+": "+checkNum(val)
-        }
+function run() {
+    val = parseInt(document.getElementById("val").value);
+    let msg =  checkNum(val);
+    console.log(msg)
+    document.getElementById("massage").innerHTML = msg;
+}
