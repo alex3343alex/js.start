@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    position: relative;
+}
+
+.textview {
+    width: 217;
+    margin: 15;
+    font-size: 25;
+    padding: 5;
+    object-position: center;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.main {
+    left: calc(50% - 217px);
+    width: 250px;
+    background: rgb(117, 226, 226);
+}

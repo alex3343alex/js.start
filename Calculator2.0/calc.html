@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <td><input class ="button" type="button" value="/"onclick="calculate('/')"></td>
+                <td><input class ="button" type="button" value="X"onclick="calculate('*')"></td>
+                <td><input class ="button" type="button" value="-"onclick="calculate('-')"></td>
+                <td><input class ="button" type="button" value="+"onclick="calculate('+')"></td>
+            </tr>
+        </table>
+        <form name="form">
+            <p>Number 1</p>
+            <input type="number" step="1" value="" name="textview" id="firstInput">
+        </form>
+        <form name="form">   
+            <p>Number 2</p>
+            <input type="number" step="1" value="" name="textview" id="secondInput">
+        </form>
+        <p><strong>Result: <span id="result"></span></strong></p>
+        </div>
+    <script src="calc.js"></script>
+</body>
+</html>
